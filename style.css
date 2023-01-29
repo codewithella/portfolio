@@ -1,0 +1,251 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #1c0d25;
+}
+
+
+section {
+    background-color: white;
+    color:#1c0d25;
+}
+
+
+.header {
+    background-color: #1c0d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+
+.nav-area {
+    height: 90px;
+}
+
+
+footer {
+    background-color: #1c0d25;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+
+
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+
+
+}
+
+
+.tit {
+    font-size: 90px;
+}
+
+
+h2 {
+    font-size: 50px;
+    color:#281235;
+
+
+}
+
+
+p {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.h-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.h-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+
+.topnav {
+    background-color: #281235;
+    overflow: hidden;
+    height: 90px;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 400;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #491e63;
+}
+
+
+.topnav a.active {
+    background-color: #281235;
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgba(80, 9, 80, 0.473);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+
+.button:hover {
+    background-color: purple;
+}
+
+
+.button:active {
+    background-color: purple;
+    color: purple;
+}
+
+
+
+
+.socials {
+    padding-bottom: 200px;
+}
+
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+
+h3 {
+    color: #281235;
+}
+
+
+h4 {
+    font-size: 50px;
+    color: white;
+
+
+}
+
+
+.subtext {
+    font-size: 20px;
+    font-weight: 400;
+    color: #281235;
+}
+
+
+.second-t {
+    color:#281235;
+}
+
+
+.project-card {
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.project-link {
+    text-decoration: none;
+    color: rgba(80, 9, 80, 0.733);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
