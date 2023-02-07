@@ -79,7 +79,7 @@ p {
 .topnav {
     background-color: #281235;
     overflow: hidden;
-    height: 90px;
+    height: auto;
 }
 
 
@@ -223,6 +223,7 @@ h4 {
     height: 350px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
+    padding: 20px;
 }
 
 
@@ -231,6 +232,13 @@ h4 {
     justify-content: space-around;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 hr {
     margin-left: 20px;
